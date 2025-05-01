@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .1s linear;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: transparent !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.navbar a{
+  color: white !important;
+}
+
+.container {
+  padding-top: 80px; /
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+
+.navbar .nav-link.active {
+  color: white !important;
+}
+
+.card{
+  background: rgba(52, 53, 119, 0.034);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.5px );
+
+}
+
+.card h5{
+  color: white;
+}
+
+.card p{
+  color: #333;
+}
+
